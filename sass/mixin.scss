@@ -17,42 +17,42 @@
 
 // Large Desktop
 @mixin large-desktop {
-  @media only screen and (min-width:1200px) {
+  @media only screen and (min-width: 75em) {
     @content;
   }
 }
 
 // Desktop
 @mixin desktop {
-  @media only screen and (max-width:1024px) {
+  @media only screen and (max-width: 64em) {
     @content;
   }
 }
 
 // Tablet
 @mixin tablet {
-  @media only screen and (min-width:768px) and (max-width:800px) {
+  @media only screen and (min-width: 48em) and (max-width: 50em) {
     @content;
   }
 }
 
 // Small Tablet Portrait
 @mixin small-tablet-portrait {
-  @media only screen and (max-width:600px) {
+  @media only screen and (max-width: 37.5em) {
     @content;
   }
 }
 
 // Mobile Landscape
 @mixin mobile-landscape {
-  @media only screen and (max-width:480px) {
+  @media only screen and (max-width: 30em) {
     @content;
   }
 }
 
 // Mobile Portrait
 @mixin mobile-portrait {
-  @media only screen and (max-width:320px) {
+  @media only screen and (max-width: 20em) {
     @content;
   }
 }
