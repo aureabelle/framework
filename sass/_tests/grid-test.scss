@@ -1,0 +1,64 @@
+// Grid Test
+// ------------
+
+@mixin col($val) {
+	@include column($val);
+	background-color: lightblue;
+}
+
+.sample-l {@include col(12);}
+.sample-k {@include col(11);}
+.sample-j {@include col(10);}
+.sample-i {@include col(9);}
+.sample-h {@include col(8);}
+.sample-g {@include col(7);}
+.sample-f {@include col(6);}
+.sample-e {@include col(5);}
+.sample-d {@include col(4);}
+.sample-c {@include col(3);}
+.sample-b {@include col(2);}
+.sample-a {@include col(1);}
+
+.l,
+.k-a,
+.j-b,
+.i-c,
+.h-d,
+.g-e,
+.f-f,
+.e-g,
+.d-h,
+.c-i,
+.b-j,
+.a-k,
+.d-d-d {
+	background-color: pink;
+	@include row(12);
+}
+
+.m {
+	@include push(3);
+}
+
+.n {
+	@include pull(3);
+}
+
+@media screen and (max-width: 480px) {
+	.sample-l,
+	.sample-k,
+	.sample-j,
+	.sample-i,
+	.sample-h,
+	.sample-g,
+	.sample-f,
+	.sample-e,
+	.sample-d,
+	.sample-c,
+	.sample-b,
+	.sample-a {@include col(12);}
+
+	.m {@include push(0);}
+	.n {@include pull(0);}
+}
+
