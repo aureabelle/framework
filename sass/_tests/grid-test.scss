@@ -36,15 +36,12 @@
 	@include row(12);
 }
 
-.m {
-	@include push(3);
-}
+.m {@include push(3);}
+.n {@include pull(3);}
 
-.n {
-	@include pull(3);
-}
 
-@media screen and (max-width: 480px) {
+// Mobile Landscape
+@include mobile-landscape {
 	.sample-l,
 	.sample-k,
 	.sample-j,

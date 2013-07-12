@@ -168,6 +168,9 @@ table {
   margin: 0 auto;
   max-width: 960px; }
 
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px; } }
 body {
   width: 100%;
   *zoom: 1; }
@@ -184,85 +187,85 @@ p {
 .sample-l {
   display: inline;
   float: left;
-  width: 97.91667%;
-  margin: 0 1.04167%;
+  width: 98.33333%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-k {
   display: inline;
   float: left;
-  width: 89.58333%;
-  margin: 0 1.04167%;
+  width: 90%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-j {
   display: inline;
   float: left;
-  width: 81.25%;
-  margin: 0 1.04167%;
+  width: 81.66667%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-i {
   display: inline;
   float: left;
-  width: 72.91667%;
-  margin: 0 1.04167%;
+  width: 73.33333%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-h {
   display: inline;
   float: left;
-  width: 64.58333%;
-  margin: 0 1.04167%;
+  width: 65%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-g {
   display: inline;
   float: left;
-  width: 56.25%;
-  margin: 0 1.04167%;
+  width: 56.66667%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-f {
   display: inline;
   float: left;
-  width: 47.91667%;
-  margin: 0 1.04167%;
+  width: 48.33333%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-e {
   display: inline;
   float: left;
-  width: 39.58333%;
-  margin: 0 1.04167%;
+  width: 40%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-d {
   display: inline;
   float: left;
-  width: 31.25%;
-  margin: 0 1.04167%;
+  width: 31.66667%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-c {
   display: inline;
   float: left;
-  width: 22.91667%;
-  margin: 0 1.04167%;
+  width: 23.33333%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-b {
   display: inline;
   float: left;
-  width: 14.58333%;
-  margin: 0 1.04167%;
+  width: 15%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .sample-a {
   display: inline;
   float: left;
-  width: 6.25%;
-  margin: 0 1.04167%;
+  width: 6.66667%;
+  margin: 0 0.83333%;
   background-color: lightblue; }
 
 .l,
@@ -324,12 +327,12 @@ p {
     clear: both; }
 
 .m {
-  margin-left: 26.04167%; }
+  margin-left: 25.83333%; }
 
 .n {
-  margin-right: 26.04167%; }
+  margin-right: 25.83333%; }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .sample-l,
   .sample-k,
   .sample-j,
@@ -344,12 +347,12 @@ p {
   .sample-a {
     display: inline;
     float: left;
-    width: 97.91667%;
-    margin: 0 1.04167%;
+    width: 98.33333%;
+    margin: 0 0.83333%;
     background-color: lightblue; }
 
   .m {
-    margin-left: 1.04167%; }
+    margin-left: 0.83333%; }
 
   .n {
-    margin-right: 1.04167%; } }
+    margin-right: 0.83333%; } }
