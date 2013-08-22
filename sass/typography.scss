@@ -2,10 +2,23 @@
 // -------------
 
 body {
-	//font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
 }
 
+h1 {font-size: 36px;}
+
+h2 {font-size: 32px;}
+
+h3 {font-size: 28px;}
+
+h4 {font-size: 24px;}
+
+h5 {font-size: 18px;}
+
+h6 {font-size: $body-text-size;}
+
 p {
-	font-size: $body-text-size;
-	line-height: $base-line-height;
+  font-size: $body-text-size;
+  line-height: $base-line-height;
 }

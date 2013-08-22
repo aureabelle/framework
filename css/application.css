@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic);
 article,
 aside,
 details,
@@ -168,7 +169,7 @@ table {
   margin: 0 auto;
   max-width: 960px; }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 75em) {
   .container {
     max-width: 1200px; } }
 body {
@@ -180,9 +181,519 @@ body {
   body:after {
     clear: both; }
 
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans serif;
+  font-size: 16px; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
 p {
   font-size: 16px;
   line-height: 140%; }
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../font/FontAwesome/fontawesome-webfont.eot?v=3.2.1");
+  src: url("../font/FontAwesome/fontawesome-webfont.eot?#iefix&v=3.2.1") format("embedded-opentype"), url("../font/FontAwesome/fontawesome-webfont.woff?v=3.2.1") format("woff"), url("../font/FontAwesome/fontawesome-webfont.ttf?v=3.2.1") format("truetype"), url("../font/FontAwesome/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans serif; }
+  .icon i,
+  .icon .icon-txt {
+    display: inline-block;
+    vertical-align: middle; }
+  .icon i {
+    font-family: "FontAwesome";
+    font-style: normal; }
+
+*[data-icon="icon-adjust"] i:before {
+  content: "\f042"; }
+
+*[data-icon="icon-adn"] i:before {
+  content: "\f170"; }
+
+*[data-icon="icon-align-center"] i:before {
+  content: "\f037"; }
+
+*[data-icon="icon-align-justify"] i:before {
+  content: "\f039"; }
+
+*[data-icon="icon-align-left"] i:before {
+  content: "\f036"; }
+
+*[data-icon="icon-align-right"] i:before {
+  content: "\f038"; }
+
+*[data-icon="icon-ambulance"] i:before {
+  content: "\f0f9"; }
+
+*[data-icon="icon-anchor"] i:before {
+  content: "\f13d"; }
+
+*[data-icon="icon-android"] i:before {
+  content: "\f17b"; }
+
+*[data-icon="icon-angle-down"] i:before {
+  content: "\f107"; }
+
+*[data-icon="icon-angle-left"] i:before {
+  content: "\f104"; }
+
+*[data-icon="icon-angle-right"] i:before {
+  content: "\f105"; }
+
+*[data-icon="icon-angle-up"] i:before {
+  content: "\f106"; }
+
+*[data-icon="icon-apple"] i:before {
+  content: "\f179"; }
+
+*[data-icon="icon-archive"] i:before {
+  content: "\f187"; }
+
+*[data-icon="icon-arrow-down"] i:before {
+  content: "\f063"; }
+
+*[data-icon="icon-arrow-left"] i:before {
+  content: "\f060"; }
+
+*[data-icon="icon-arrow-right"] i:before {
+  content: "\f061"; }
+
+*[data-icon="icon-arrow-up"] i:before {
+  content: "\f062"; }
+
+*[data-icon="icon-asterisk"] i:before {
+  content: "\f069"; }
+
+*[data-icon="icon-backward"] i:before {
+  content: "\f04a"; }
+
+*[data-icon="icon-ban-circle"] i:before {
+  content: "\f05e"; }
+
+*[data-icon="icon-barcode"] i:before {
+  content: "\f02a"; }
+
+*[data-icon="icon-bar-chart"] i:before {
+  content: "\f080"; }
+
+*[data-icon="icon-beaker"] i:before {
+  content: "\f0c3"; }
+
+*[data-icon="icon-beer"] i:before {
+  content: "\f0fc"; }
+
+*[data-icon="icon-bell"] i:before {
+  content: "\f0a2"; }
+
+*[data-icon="icon-bell-alt"] i:before {
+  content: "\f0f3"; }
+
+*[data-icon="icon-bitbucket"] i:before {
+  content: "\f171"; }
+
+*[data-icon="icon-bitbucket-sign"] i:before {
+  content: "\f172"; }
+
+*[data-icon="icon-bold"] i:before {
+  content: "\f032"; }
+
+*[data-icon="icon-bolt"] i:before {
+  content: "\f0e7"; }
+
+*[data-icon="icon-book"] i:before {
+  content: "\f02d"; }
+
+*[data-icon="icon-bookmark"] i:before {
+  content: "\f02e"; }
+
+*[data-icon="icon-bookmark-empty"] i:before {
+  content: "\f097"; }
+
+*[data-icon="icon-briefcase"] i:before {
+  content: "\f0b1"; }
+
+*[data-icon="icon-btc"] i:before {
+  content: "\f15a"; }
+
+*[data-icon="icon-bug"] i:before {
+  content: "\f188"; }
+
+*[data-icon="icon-building"] i:before {
+  content: "\f0f7"; }
+
+*[data-icon="icon-bullhorn"] i:before {
+  content: "\f0a1"; }
+
+*[data-icon="icon-bullseye"] i:before {
+  content: "\f140"; }
+
+*[data-icon="icon-calendar"] i:before {
+  content: "\f073"; }
+
+*[data-icon="icon-calendar-empty"] i:before {
+  content: "\f133"; }
+
+*[data-icon="icon-camera"] i:before {
+  content: "\f030"; }
+
+*[data-icon="icon-camera-retro"] i:before {
+  content: "\f083"; }
+
+*[data-icon="icon-caret-down"] i:before {
+  content: "\f0d7"; }
+
+*[data-icon="icon-caret-left"] i:before {
+  content: "\f0d9"; }
+
+*[data-icon="icon-caret-right"] i:before {
+  content: "\f0da"; }
+
+*[data-icon="icon-caret-up"] i:before {
+  content: "\f0d8"; }
+
+*[data-icon="icon-certificate"] i:before {
+  content: "\f0a3"; }
+
+*[data-icon="icon-check"] i:before {
+  content: "\f046"; }
+
+*[data-icon="icon-check-empty"] i:before {
+  content: "\f096"; }
+
+*[data-icon="icon-check-minus"] i:before {
+  content: "\f147"; }
+
+*[data-icon="icon-check-sign"] i:before {
+  content: "\f14a"; }
+
+*[data-icon="icon-chevron-down"] i:before {
+  content: "\f078"; }
+
+*[data-icon="icon-chevron-left"] i:before {
+  content: "\f053"; }
+
+*[data-icon="icon-chevron-right"] i:before {
+  content: "\f054"; }
+
+*[data-icon="icon-chevron-sign-down"] i:before {
+  content: "\f13a"; }
+
+*[data-icon="icon-chevron-sign-left"] i:before {
+  content: "\f137"; }
+
+*[data-icon="icon-chevron-sign-right"] i:before {
+  content: "\f138"; }
+
+*[data-icon="icon-chevron-sign-up"] i:before {
+  content: "\f139"; }
+
+*[data-icon="icon-chevron-up"] i:before {
+  content: "\f077"; }
+
+*[data-icon="icon-circle"] i:before {
+  content: "\f111"; }
+
+*[data-icon="icon-circle-arrow-down"] i:before {
+  content: "\f0ab"; }
+
+*[data-icon="icon-circle-arrow-left"] i:before {
+  content: "\f0a8"; }
+
+*[data-icon="icon-circle-arrow-right"] i:before {
+  content: "\f0a9"; }
+
+*[data-icon="icon-circle-arrow-up"] i:before {
+  content: "\f0aa"; }
+
+*[data-icon="icon-circle-blank"] i:before {
+  content: "\f10c"; }
+
+*[data-icon="icon-cloud"] i:before {
+  content: "\f0c2"; }
+
+*[data-icon="icon-cloud-download"] i:before {
+  content: "\f0ed"; }
+
+*[data-icon="icon-cloud-upload"] i:before {
+  content: "\f0ee"; }
+
+*[data-icon="icon-code"] i:before {
+  content: "\f121"; }
+
+*[data-icon="icon-code-fork"] i:before {
+  content: "\f126"; }
+
+*[data-icon="icon-coffee"] i:before {
+  content: "\f0f4"; }
+
+*[data-icon="icon-cog"] i:before {
+  content: "\f013"; }
+
+*[data-icon="icon-cogs"] i:before {
+  content: "\f085"; }
+
+*[data-icon="icon-collapse"] i:before {
+  content: "\f150"; }
+
+*[data-icon="icon-collapse-alt"] i:before {
+  content: "\f117"; }
+
+*[data-icon="icon-collapse-top"] i:before {
+  content: "\f151"; }
+
+*[data-icon="icon-comment"] i:before {
+  content: "\f075"; }
+
+*[data-icon="icon-comment-alt"] i:before {
+  content: "\f0e5"; }
+
+*[data-icon="icon-comments"] i:before {
+  content: "\f086"; }
+
+*[data-icon="icon-comments-alt"] i:before {
+  content: "\f0e6"; }
+
+*[data-icon="icon-compass"] i:before {
+  content: "\f14e"; }
+
+*[data-icon="icon-copy"] i:before {
+  content: "\f0c5"; }
+
+*[data-icon="icon-cny"] i:before {
+  content: "\f158"; }
+
+*[data-icon="icon-credit-card"] i:before {
+  content: "\f09d"; }
+
+*[data-icon="icon-crop"] i:before {
+  content: "\f125"; }
+
+*[data-icon="icon-css3"] i:before {
+  content: "\f13c"; }
+
+*[data-icon="icon-cut"] i:before {
+  content: "\f0c4"; }
+
+*[data-icon="icon-dashboard"] i:before {
+  content: "\f0e4"; }
+
+*[data-icon="icon-desktop"] i:before {
+  content: "\f108"; }
+
+*[data-icon="icon-download"] i:before {
+  content: "\f01a"; }
+
+*[data-icon="icon-download-alt"] i:before {
+  content: "\f019"; }
+
+*[data-icon="icon-dribbble"] i:before {
+  content: "\f17d"; }
+
+*[data-icon="icon-dropbox"] i:before {
+  content: "\f16b"; }
+
+*[data-icon="icon-double-angle-down"] i:before {
+  content: "\f103"; }
+
+*[data-icon="icon-double-angle-left"] i:before {
+  content: "\f100"; }
+
+*[data-icon="icon-double-angle-right"] i:before {
+  content: "\f101"; }
+
+*[data-icon="icon-double-angle-up"] i:before {
+  content: "\f102"; }
+
+*[data-icon="icon-edit"] i:before {
+  content: "\f044"; }
+
+*[data-icon="icon-edit-sign"] i:before {
+  content: "\f14b"; }
+
+*[data-icon="icon-eject"] i:before {
+  content: "\f052"; }
+
+*[data-icon="icon-ellipsis-horizontal"] i:before {
+  content: "\f141"; }
+
+*[data-icon="icon-ellipsis-vertical"] i:before {
+  content: "\f142"; }
+
+*[data-icon="icon-envelope"] i:before {
+  content: "\f0e0"; }
+
+*[data-icon="icon-envelope-alt"] i:before {
+  content: "\f003"; }
+
+*[data-icon="icon-eraser"] i:before {
+  content: "\f12d"; }
+
+*[data-icon="icon-eur"] i:before {
+  content: "\f153"; }
+
+*[data-icon="icon-exchange"] i:before {
+  content: "\f0ec"; }
+
+*[data-icon="icon-exclamation"] i:before {
+  content: "\f12a"; }
+
+*[data-icon="icon-exclamation-sign"] i:before {
+  content: "\f06a"; }
+
+*[data-icon="icon-expand"] i:before {
+  content: "\f152"; }
+
+*[data-icon="icon-expand-alt"] i:before {
+  content: "\f116"; }
+
+*[data-icon="icon-external-link"] i:before {
+  content: "\f08e"; }
+
+*[data-icon="icon-external-link-sign"] i:before {
+  content: "\f14c"; }
+
+*[data-icon="icon-eye-close"] i:before {
+  content: "\f070"; }
+
+*[data-icon="icon-eye-open"] i:before {
+  content: "\f06e"; }
+
+*[data-icon="icon-facebook"] i:before {
+  content: "\f09a"; }
+
+*[data-icon="icon-facebook-sign"] i:before {
+  content: "\f082"; }
+
+*[data-icon="icon-facetime-video"] i:before {
+  content: "\f03d"; }
+
+*[data-icon="icon-fast-backward"] i:before {
+  content: "\f049"; }
+
+*[data-icon="icon-fast-forward"] i:before {
+  content: "\f049"; }
+
+*[data-icon="icon-female"] i:before {
+  content: "\f182"; }
+
+*[data-icon="icon-fighter-jet"] i:before {
+  content: "\f0fb"; }
+
+*[data-icon="icon-file"] i:before {
+  content: "\f15b"; }
+
+*[data-icon="icon-file-alt"] i:before {
+  content: "\f016"; }
+
+*[data-icon="icon-file-text"] i:before {
+  content: "\f15c"; }
+
+*[data-icon="icon-file-text-alt"] i:before {
+  content: "\f0f6"; }
+
+*[data-icon="icon-film"] i:before {
+  content: "\f008"; }
+
+*[data-icon="icon-filter"] i:before {
+  content: "\f0b0"; }
+
+*[data-icon="icon-fire"] i:before {
+  content: "\f06d"; }
+
+*[data-icon="icon-fire-extinguisher"] i:before {
+  content: "\f134"; }
+
+*[data-icon="icon-flag"] i:before {
+  content: "\f024"; }
+
+*[data-icon="icon-flag-alt"] i:before {
+  content: "\f11d"; }
+
+*[data-icon="icon-flag-checkered"] i:before {
+  content: "\f11e"; }
+
+*[data-icon="icon-flickr"] i:before {
+  content: "\f16e"; }
+
+*[data-icon="icon-folder-close"] i:before {
+  content: "\f07b"; }
+
+*[data-icon="icon-folder-close-alt"] i:before {
+  content: "\f114"; }
+
+*[data-icon="icon-folder-open"] i:before {
+  content: "\f07c"; }
+
+*[data-icon="icon-folder-open-alt"] i:before {
+  content: "\f115"; }
+
+*[data-icon="icon-font"] i:before {
+  content: "\f031"; }
+
+*[data-icon="icon-food"] i:before {
+  content: "\f0f5"; }
+
+*[data-icon="icon-forward"] i:before {
+  content: "\f04e"; }
+
+*[data-icon="icon-foursquare"] i:before {
+  content: "\f180"; }
+
+*[data-icon="icon-frown"] i:before {
+  content: "\f119"; }
+
+*[data-icon="icon-fullscreen"] i:before {
+  content: "\f0b2"; }
+
+*[data-icon="icon-gamepad"] i:before {
+  content: "\f11b"; }
+
+*[data-icon="icon-gbp"] i:before {
+  content: "\f154"; }
+
+*[data-icon="icon-gift"] i:before {
+  content: "\f06b"; }
+
+*[data-icon="icon-github"] i:before {
+  content: "\f09b"; }
+
+*[data-icon="icon-github-alt"] i:before {
+  content: "\f113"; }
+
+*[data-icon="icon-github-sign"] i:before {
+  content: "\f092"; }
+
+*[data-icon="icon-glass"] i:before {
+  content: "\f000"; }
+
+*[data-icon="icon-heart"] i:before {
+  content: "\f004"; }
+
+*[data-icon="icon-music"] i:before {
+  content: "\f001"; }
+
+*[data-icon="icon-search"] i:before {
+  content: "\f002"; }
 
 .sample-l {
   display: inline;
@@ -332,7 +843,7 @@ p {
 .n {
   margin-right: 25.83333%; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 30em) {
   .sample-l,
   .sample-k,
   .sample-j,

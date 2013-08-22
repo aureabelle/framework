@@ -1,9 +1,17 @@
 // Variables
 // ------------
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic);
+
+// Icons
+$FontAwesomePath: "../font/FontAwesome";
+$FontAwesomeVersion: "3.2.1";
 
 // Typography
-
+$base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans serif;
 $base-font-size: 16px;
+$base-line-height: 140%;
 
 $body-text-size: $base-font-size;
-$base-line-height: 140%;
+
+// UI Elements
+$base-ui-font-family: "Helvetica Neue", Helvetica, Arial, sans serif;
